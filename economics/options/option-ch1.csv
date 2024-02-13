@@ -1,0 +1,75 @@
+Question,Answer,,,,,
+Why Option Trading?,Option trading is getting popular day by day due to its simplicity and lower risk profile. It is turning out to be one of the regular income streams because it requires very little amount of money and very basic knowledge to start with. Another advantage of option trading is that one can make profit irrespective of the market condition. The only one point of caution is that one has to select the right strategy depending on the type of stock or index and depending on market conditions.,,,,,
+What are Advantages of option trading,Leverage: Option trading allows a small amount of capital to control a larger monetary amount of the underlying asset. A trader requires Rs.1,20,000 to own 1000 shares whose stock price is Rs.120. But in option, the trader will require a fraction of that amount to control such an amount of shares. Flexibility: Option trading is a very flexible investment tool, allowing trading and making a profit in various market situations. Limited Risk-Unlimited Profit: The maximum loss is limited when one buys an option," but the possible profit amount is unlimited. Portfolio protection is also possible by creating a hedge with options to fight adverse situations."""
+What is an option?,An option is the right either to buy or to sell a specified amount of a particular underlying asset at a pre-determined price by a pre-determined expiration time frame. Option is known as derivative because its value is derived from an underlying asset and its price fluctuates as the price of the underlying asset rises or declines. There are two types of options; Call option and Put option.,,,,,
+what is a Call option?,"A call option is the right but not the obligation to buy a fixed amount of shares at a fixed price on or before the expiry period. It is suitable when the trader expects an upside movement of the stock or market. Example: If the trader has a bullish view on banking stocks, then he should buy a call option of Bank-Nifty.",,,,,
+What is Put option?,"A put option is the right but not the obligation to sell a fixed amount of shares at a fixed price on or before the expiry period. It is suitable when the trader has a bearish view on the market or a particular stock. Example: If the trader has a bearish view on banking stocks, then he should buy a put option of Bank-Nifty.",,,,,
+Write Some important terms related to option,Underlying asset: Each option is based on an asset; this is known as underlying asset. Strike Price: The predetermined price at which the underlying asset may be bought by the call holder or sold by the put holder. Expiration Date: The date on which an option expires. Option premium: The price paid for buying the option is known as option premium or simply option price. It can be divided into intrinsic value and time value.,,,,,
+What are the Parameters affecting option premium?,"A trader should have clear knowledge of the parameters affecting option pricing, which generally depend on the underlying asset, volatility, time left for expiry, and interest rates. In-the-money option, At-the-money option, Out-of-the-money option are terms associated with the relationship between the strike price and the underlying asset price.",,,,,
+Explanation of different terms with an Example,"The option chain of State Bank of India (SBIN) is provided as an example. It includes information about strike prices, in-the-money, at-the-money, and out-of-the-money options. Bid Price, Ask Price, and Last Traded Price (LTP) are also explained. An example statement about the SBIN call option of strike price Rs.240 is provided to illustrate the concepts of in-the-money option, intrinsic value, and time value.",,,,,
+Write Two most important factors affecting option price other than asset price?,Volatility: Refers to the price fluctuation of an underlying asset. It can be historical volatility or implied volatility. Implied Volatility: Represents the current and future perception of the market risk. It is important because option price increases if implied volatility increases keeping other parameters constant. Days or Time to expiration: The time remaining in days to the expiry period is an important factor to determine option price. The value of option decreases as the time to expiration gets closer.,,,,,
+What is an Underlying asset ?,Underlying asset: Each option is based on an asset; this is known as underlying asset.,,,,,
+What is Volatility in stock market?,Volatility: Refers to the price fluctuation of an underlying asset. It can be historical volatility or implied volatility. Implied Volatility: Represents the current and future perception of the market risk. It is important because option price increases if implied volatility increases keeping other parameters constant. Days or Time to expiration: The time remaining in days to the expiry period is an important factor to determine option price. The value of option decreases as the time to expiration gets closer.,,,,,
+What is a Strike Price in options., Strike Price: The predetermined price at which the underlying asset may be bought by the call holder or sold by the put holder.,,,,,
+What is a Expiration Date in options., Expiration Date: The date on which an option expires. Option premium: The price paid for buying the option is known as option premium or simply option price. It can be divided into intrinsic value and time value.,,,,,
+What is Implied Volatility.,"Implied Volatility: Implied Volatility (IV) is one of the most important deciding factors of
+option price. We found Historical Volatility is the annualized standard
+deviation of the past price movement of a stock or index. But Implied
+Volatility is the volatility that matches with the current option price and
+indicates current and future perception of the market risk. In one sentence,
+implied volatility is the volatility which market implies about the stock’s
+volatility in the future.
+It is important because option price increases if implied volatility
+increases keeping other parameters remain constant.
+You can get implied volatility of option prices in NSE websites or any
+other financial websites or softwares where option chains are available.",,,,,
+Historical Volatility,Historical volatility is the historical price fluctuation of the underlying asset in percentage terms. Normally it is calculated as standard deviation of daily fluctuation of historical closing prices. ,,,,,
+What is In-the-money option (ITM)?,"A call option will be known as in-the-money option (ITM) when the strike price is lower than the underlying asset price. On the other hand, a put option will be in-the-money option when strike price is higher than the underlying asset price.",,,,,
+discibe At-the-money(ATM) option?,"When underlying asset price is equal to strike price of the option, the option is known as at-the-money option",,,,,
+Describe Out-of-the-money (OTM) option?,"A call option will be known as out-of-the-money option when the strike price is higher than the underlying asset price. On the other hand, a put option will be known as out-of-the-money option when strike price is lower than the underlying asset price",,,,,
+What is the basic idea of option trading?,"Option trading involves buying or selling contracts that give the holder the right, but not the obligation, to buy or sell an underlying asset at a specified price on or before a specified date.",,,,,
+What are the two most important factors affecting option price other than asset price?,Volatility and time to expiration.,,,,,
+What is the Greeks?,"These are collection of statistical values named after Greek letters. If you want to get success in option trading and if you wish to take this profession as your full time earning option then you should understand each and every Option Greek. The Option Greeks can be very useful to help you to predict future option price because they effectively measure the sensitivity of the price compared to some of the factors that affect price. In particular, these factors are underlying share price, decay in time, interest rate and the volatility.Name of Option Greek	Role in option Trading
+Delta	It helps to calculate the change of option premium due to change in price of underlying while other things remain unchanged
+Gamma	It calculates the change in delta
+Theta	Measures the impact of a change in time remaining.
+Vega	Measures the impact of a change in volatility.",,,,,
+what is Delta in options geeks,"Option Delta is the most important Greek to understand because it
+indicates sensitivity of option prices in relation to the price of underlying. In
+simply terms, it’ll tell you changes in option price due to change in 1 unit of
+underlying price.
+An option with high delta will move in price significantly in proportion to
+the price movements of the underlying security, while one with low delta will
+move less often.
+The delta value of an option is usually expressed as -1 to 1. Normally
+delta of a call option is expressed from 0 to 1 and delta of a put option is
+expressed as -1 to 0.
+The value depends mainly on the moneyness of a particular option i.e.
+whether the option is in-the-money or at-the-money or out-of-the-money.
+Delta of any option can tell you the type of the option. Please follow the
+table to know in details:-Moneyness of option	Delta Value
+Far out of the Option (call/Put)	Close to Zero (they hardly move)
+Deep in the money call option	Close to +1 (Option value move almost as much as underlying's price.\n
+Deep in the money Put option	Close to -1 (Option value moves almost as much as underlying's price but in the opposite direction)
+At the money Call option	+0.5
+At the money Put option	-0.5",,,,,
+"How to calculate option price with respect to underlying’s price change depending on delta value Suppose a trader holds a call option which is slightly in-the-money with a
+delta of 0.6 and market price of 10. This call option gives you the right to buy
+100 shares of company X for Rs.150. Currently the company X is trading at
+Rs.160. What will happen if the stock price increases to Rs.170?","Here the strike price of the given call option is Rs.150. As per given problem, market price of call option (150 strike price) will increase by Rs. 0.6 for an increase of stock price by Rs.1. Therefore, if stock price increases by Rs.10 then the option price will increase by 10*0.6=6 i.e. the call option price will be approx. (10+6)=16 if the stock price increases to Rs.170.",,,,,
+How to calculate the delta of an option strategy/Portfolio You can easily calculate the total delta of an option strategy or a portfolio by summing up deltas of all individual options.,"Suppose a trader have made an option strategy with the following option:-
+1 ITM long call with delta 0.55
+1 ITM long put with delta -0.6
+1 OTM short call with a delta 0.3
+1 OTM short put with a delta -0.4
+The total delta of this position is:-
+0.55 + (-0.6)-0.3 +0.4 = 0.05
+It indicates that the market value of your option strategy or portfolio will
+increase by 0.05 unit for 1 unit move of the underlying’s market price.
+Note: Normally sign of delta of a put option is negative. Delta sign will
+also be negative when we short any call option. Whereas the sign will be
+positive for a shorting put option.",,,,,
+Importance of Delta Neutral Option Strategies,"As you know, trading in derivative is somehow speculative because most of the action depends on trader’s view on the stock or the market. This market outlook of the trader may be faulty and may end in huge losses. In this case, delta neutral strategy helps a lot. A delta-neutral strategy is a weapon of a trader which he can use to earn profit without forecasting the direction of the market. The term “Delta Neutral” refers to any strategy where the sum of delta values of all the options is equal to zero. For an example, if you buy 2 call options, each having a delta of 0.60 and you buy 4 put options also, each having a delta of -0.30 then you have the following: Summing up the delta value = (2 x 0.60) + (4 x -0.30) = 1.2-1.2= 0 Hence, position delta (total delta) is zero here this is known as Delta Neutral. In practical, this type of option strategy will not get affected due to small movement in stock price or market but delta neutral position will not necessarily remain neutral if price of the underlying security moves to any side at great degree. Because, delta value of the option will change a lot if stock price moves in any one direction significantly.",,,,,
+what is Gamma in option greeks,"Gamma is the rate of change of an option’s delta i.e. gamma denotes how an option delta value change with 1unit movement in underlying’s market price. You need to reduce the gamma if you want to make a delta hedge option strategy for a wider price range. Mathematically, delta is the first derivative of the option market price and gamma is the second derivative of the option price. When the option is deep in-the-money or out-of-the-money then the gamma value is small but when the option is near or at-the-money, gamma value is the largest. All long option have positive gamma and short option have negative gamma. Hence, the trader can calculate the positional gamma for a particular option strategy by summing up gamma of all individual options",,,,,
+What is Theta in option greeks,"Theta, the third option Greek, indicates the decaying of option value over time. It is the ‘silent-killer’ for option buyer as it takes away all the option time value as the expiration comes near and theta value of option becomes zero at expiry. As you know the option value = intrinsic value + Time value Here this “Time value” depends on the value of theta. If the theta value is high for any option then its time value will decrease fast. Theta values are always negative for option buyers and always positive for the option writers or sellers.",,,,,
+What is Vega in options greeks,Vega measures the change in option premium due to one unit change in implied volatility. Implied volatility indicates the expected volatility of the underlying asset over the life span of the option and not the historical volatility of the underlying asset.,,,,,
