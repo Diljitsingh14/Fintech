@@ -3,20 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255; */
+  --purple: #4a0e60;
+  --pink: #be35ab;
+  --yellow: #faad44;
+  --dark: #1e1e2f;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 body {
+  /* background-color: #1e1e2f !important; */
+  background: linear-gradient(to bottom, #1e1e2f, #2e2e5b);
+  /* background-repeat: no-repeat; */
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: #1e1e2f;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +43,90 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+.glass-positive {
+  position: relative;
+  justify-content: space-evenly;
+  background-color: rgba(0, 210, 119, 0.4);
+  border-radius: 4px;
+  box-shadow: 0px 0 31px 0px rgb(0 0 0 / 10%);
+  backdrop-filter: blur(50px);
+}
+.glass-neg {
+  position: relative;
+  justify-content: space-evenly;
+  background-color: rgba(210, 0, 0, 0.4);
+  border-radius: 4px;
+  box-shadow: 0px 0 31px 0px rgb(250, 0, 0 / 10%);
+  backdrop-filter: blur(50px);
+  color: white;
+}
+
+.glass-neu {
+  position: relative;
+  justify-content: space-evenly;
+  background-color: rgba(14, 0, 210, 0.4);
+  border-radius: 4px;
+  box-shadow: 0px 0 31px 0px rgba(27, 2, 247, 0.1);
+  backdrop-filter: blur(50px);
+}
+
+.sidebar {
+  width: 200px;
+  min-height: 100vh !important;
+}
+
+.sidebar ul {
+  margin-top: 20px;
+  display: block;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+ul li {
+  color: #ffffff;
+}
+
+.sidebar .nav li > a,
+.off-canvas-sidebar .nav li > a {
+  margin: 10px 15px 0;
+  border-radius: 30px;
+  color: #ffffff;
+  display: block;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 8px;
+  line-height: 1.625rem;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  h3 {
+    color: white;
+    margin-right: 30px;
+    margin-left: 10px;
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+  img {
+    margin-left: 40px;
+  }
+}
+
+.main {
+  height: 100vh !important;
+  overflow-y: scroll;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
