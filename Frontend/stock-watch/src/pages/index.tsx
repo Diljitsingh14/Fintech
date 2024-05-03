@@ -151,11 +151,9 @@ export default function Home() {
 
   useEffect(() => {
     setLoading(true);
-    setTimeout(() => {
-      fetchNews();
-      fetchAheadPrice();
-      setLoading(false);
-    }, 2000);
+    fetchNews();
+    fetchAheadPrice();
+    setLoading(false);
   }, []);
 
   return (

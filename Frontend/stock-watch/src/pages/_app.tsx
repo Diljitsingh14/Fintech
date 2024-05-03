@@ -3,6 +3,11 @@ import type { AppProps } from "next/app";
 import { Roboto } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import { NavContext, NavItems } from "@/contexts/NavbarContext";
+import { ThemeContext } from "@/contexts/ThemeContext";
+import { BackgroundColorContext } from "@/contexts/BackgroundColorContext";
+import { useContext, useState } from "react";
+
 config.autoAddCss = false;
 
 const roboto = Roboto({
@@ -11,9 +16,16 @@ const roboto = Roboto({
 });
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [theme, changeTheme] = useState("dark");
+  const [activeNavItem, changeNavItem] = useState(NavItems[0].value);
+
   return (
-    <main className={roboto.className}>
-      <Component {...pageProps} />
-    </main>
+    <ThemeContext.Provider value={{ theme, changeTheme }}>
+      <NavContext.Provider value={{ activeNavItem, changeNavItem }}>
+        <main className={roboto.className}>
+          <Component {...pageProps} />
+        </main>
+      </NavContext.Provider>
+    </ThemeContext.Provider>
   );
 }
