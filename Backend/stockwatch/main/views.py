@@ -238,6 +238,11 @@ def latestNews(request):
     return JsonResponse(articles_data, safe=False)
 
 
+"""
+req --> load model --> check last fetch data if its old fetch latest --> train on latest --> predict 7 days ahead --> send response
+"""
+
+
 def predict(request):
     pre_nn_model = AI_Model(model_path='C:/Users/jeetc/OneDrive/Desktop/Projects/Fintech/Backend/stockwatch/main/modules/trained_model-latest.h5',
                             scaler_path='C:/Users/jeetc/OneDrive/Desktop/Projects/Fintech/Backend/stockwatch/main/modules/scaler-latest.pkl')
